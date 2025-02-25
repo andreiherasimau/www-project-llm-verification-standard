@@ -9,10 +9,11 @@ Establish controls that enable safe interactions and operations between applicat
 | 5.1.2 | Ensure that prompts to LLMs are constructed server-side, rather than accepting the complete prompt directly from the client. | ✓ | ✓ | ✓ |
 | 5.1.3 | Ensure that user prompts are properly validated to exclude special characters, keywords, separators, etc. | ✓ | ✓ | ✓ |
 | 5.1.4 | Ensure that user prompts are protected against semantic-based prompt injections, such as completion attacks, ignore attacks and important task attacks. | ✓ | ✓ | ✓ |
-| 5.1.5 | Ensure that proper protections are in place to prevent meta-prompt leakage, e.g. canary tokens, guardrails, input and output filtering, etc. |   | ✓ | ✓ |
-| 5.1.6 | Ensure that appropriate LLM guards are used to scan prompts and compilations to help detect potential prompt injection attacks. |      | ✓ | ✓ |
-| 5.1.7 | Ensure that prompts are scanned for suspicious, harmful or banned sequences of words. |    | ✓ | ✓ |
-| 5.1.8 | Check the entropy of LLM responses to detect encoded data which aims to circumvent additional checks, such as bypassing canary tokens. |      |      | ✓ |
+| 5.1.5 | Ensure that user-supplied URLs undergo safety checks to prevent indirect prompt injection. | ✓ | ✓ | ✓ |
+| 5.1.6 | Ensure that proper protections are in place to prevent meta-prompt leakage, e.g. canary tokens, guardrails, input and output filtering, etc. |   | ✓ | ✓ |
+| 5.1.7 | Ensure that appropriate LLM guards are used to scan prompts and compilations to help detect potential prompt injection attacks. |      | ✓ | ✓ |
+| 5.1.8 | Ensure that prompts are scanned for suspicious, harmful or banned sequences of words. |    | ✓ | ✓ |
+| 5.1.9 | Check the entropy of LLM responses to detect encoded data which aims to circumvent additional checks, such as bypassing canary tokens. |      |      | ✓ |
 
 ## V5.2 Context Security
 
