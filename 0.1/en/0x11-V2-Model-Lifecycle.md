@@ -24,10 +24,12 @@ Ensure that the LLM's lifecycle is planned while taking security considerations 
 | - | ---------- | -- | -- | -- |
 | 2.2.1 | Check regulatory obligations to ensure compliance when handling and processing model training data. |      | ✓ | ✓ |
 | 2.2.2 | Ensure that foundational models are fine-tuned to limit irrelevant data points which may lead to poor model performance. -> Don't see security relevance. Remove? |      | ✓ | ✓ |
-| 2.2.3 | Ensure that a ML Bill-of-Materials (BOM) is produced for each model. |      |      | ✓ |
-| 2.2.4 | Consider watermarking techniques for model responses when model theft is a concern, or the output of the model needs to be identifiable. |      |      | ✓ |
-| 2.2.5 | Before a model is finalized for deployment, conduct a thorough risk assessment to understand potential security, ethical, and operational risks. This assessment should guide the decision-making process regarding the deployment of the model. |      |      | ✓ |
-| 2.2.6 | Ensure there is a clear plan for decommissioning models that are no longer in use. This includes securely erasing data, model parameters, and any sensitive information associated with the model to prevent unauthorized access or misuse. |      |      | ✓ |
+| 2.2.3 | Ensure that the LLM is regularly fine-tuned to incorporate defenses against the most recent vulnerabilities, e.g. new prompt or context inejction techniques. - NEW (https://arxiv.org/pdf/2410.21337v1) |      | ✓ | ✓ |
+| 2.2.4 | Ensure that the LLM is fine-tuned to only output verified and truthful information. - NEW (https://arxiv.org/pdf/2410.21337v1) |      | ✓ | ✓ |
+| 2.2.5 | Ensure that a ML Bill-of-Materials (BOM) is produced for each model. |      |      | ✓ |
+| 2.2.6 | Consider watermarking techniques for model responses when model theft is a concern, or the output of the model needs to be identifiable. |      |      | ✓ |
+| 2.2.7 | Before a model is finalized for deployment, conduct a thorough risk assessment to understand potential security, ethical, and operational risks. This assessment should guide the decision-making process regarding the deployment of the model. |      |      | ✓ |
+| 2.2.8 | Ensure there is a clear plan for decommissioning models that are no longer in use. This includes securely erasing data, model parameters, and any sensitive information associated with the model to prevent unauthorized access or misuse. |      |      | ✓ |
 
 ## V2.3 Integration of Model Lifecycle into Secure Software Development Lifecycle
 
