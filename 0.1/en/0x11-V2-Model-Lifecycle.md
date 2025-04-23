@@ -29,7 +29,7 @@ Ensure that the LLM's lifecycle is planned while taking security considerations 
 | 2.2.5 | Ensure that a ML Bill-of-Materials (BOM) is produced for each model. |      |      | ✓ |
 | 2.2.6 | Consider watermarking techniques for model responses when model theft is a concern, or the output of the model needs to be identifiable. |      |      | ✓ |
 | 2.2.7 | Before a model is finalized for deployment, conduct a thorough risk assessment to understand potential security, ethical, and operational risks. This assessment should guide the decision-making process regarding the deployment of the model. |      |      | ✓ |
-| 2.2.8 | Ensure there is a clear plan for decommissioning models that are no longer in use. This includes securely erasing data, model parameters, and any sensitive information associated with the model to prevent unauthorized access or misuse. |      |      | ✓ |
+| 2.2.8 | Consider implementing a clear plan for decommissioning models that are no longer in use. This includes securely erasing data, model parameters, and any sensitive information associated with the model to prevent unauthorized access or misuse. |      |      | ✓ |
 
 ## V2.3 Integration of Model Lifecycle into Secure Software Development Lifecycle
 
