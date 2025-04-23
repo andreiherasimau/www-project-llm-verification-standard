@@ -10,7 +10,6 @@ Establish controls that enable safe interactions and operations between applicat
 | 5.1.3 | Ensure that appropriate LLM guards are used to scan prompts and compilations to help detect potential prompt injection attacks. |      | ✓ | ✓ |
 | 5.1.4 | Consider using canary tokens in LLM prompts and check whether LLM completions contain the canary word to detect prompt leakage attacks. |      |      | ✓ |
 | 5.1.5 | Check the entropy of LLM responses to detect encoded data which aims to circumvent additional checks, such as bypassing canary tokens. |      |      | ✓ |
-| 5.1.6 | Define baselines for normal LLM interactions and monitor and alert when abnormal LLM interactions are detected. |      |      | ✓ |
 
 ## V5.2 Context Security
 
