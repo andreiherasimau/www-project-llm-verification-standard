@@ -28,4 +28,8 @@ Ensure that autonomous LLM components are securely configured.
 | 6.2.3| Ensure that the parameters for agent tools and plugins are validated prior to execution. Typical checks should include type checks at minimum, in addition to any more specific validation. |      | ✓ | ✓ |
 | 6.2.4 | Ensure that credentials for third-party services consumed by agent tools and plugins are securely handled according to section V2.10 “Service Authentication” of the OWASP ASVS. |      | ✓ | ✓ |
 | 6.2.5 | Ensure that agent and plugin frameworks contain hooks that allow the raw prompts and completions to be intercepted, enabling LLM guards to operate, and enabling proper monitoring, troubleshooting, and auditing. |      | ✓ | ✓ |
-| 6.2.6 | Ensure that the application is protected against indirect plugin calls. The application should at least have a defined constraint over the interaction between the LLM and the web tools to prevent the LLM from executing external instructions returned by the web tools. - NEW: https://arxiv.org/pdf/2402.18649 |      | ✓ | ✓ |
+| 6.2.6 | Ensure that the application is protected against indirect plugin calls. The application should at least have a defined constraint over the interaction between the LLM and the web tools to prevent the LLM from executing external instructions returned by the web tools. [\[1\]](#real_world_llm_sec_6) |      | ✓ | ✓ |
+
+## References
+
+<a id="real_world_llm_sec_6">\[1\] https://arxiv.org/pdf/2402.18649</a>

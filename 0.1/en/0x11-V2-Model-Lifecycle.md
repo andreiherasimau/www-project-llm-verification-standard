@@ -24,8 +24,8 @@ Ensure that the LLM's lifecycle is planned while taking security considerations 
 | - | ---------- | -- | -- | -- |
 | 2.2.1 | Check regulatory obligations to ensure compliance when handling and processing model training data. |      | ✓ | ✓ |
 | 2.2.2 | Ensure that foundational models are fine-tuned to limit irrelevant data points which may lead to poor model performance. -> Don't see security relevance. Remove? |      | ✓ | ✓ |
-| 2.2.3 | Ensure that the LLM is regularly fine-tuned to incorporate defenses against the most recent vulnerabilities, e.g. new prompt or context inejction techniques. - NEW (https://arxiv.org/pdf/2410.21337v1) |      | ✓ | ✓ |
-| 2.2.4 | Ensure that the LLM is fine-tuned to only output verified and truthful information. - NEW (https://arxiv.org/pdf/2410.21337v1) |      | ✓ | ✓ |
+| 2.2.3 | Ensure that the LLM is regularly fine-tuned to incorporate defenses against the most recent vulnerabilities, e.g. new prompt or context inejction techniques. [\[1\]](#fine_tune_def) |      | ✓ | ✓ |
+| 2.2.4 | Ensure that the LLM is fine-tuned to only output verified and truthful information. [\[1\]](#fine_tune_def) |      | ✓ | ✓ |
 | 2.2.5 | Ensure that a ML Bill-of-Materials (BOM) is produced for each model. |      |      | ✓ |
 | 2.2.6 | Consider watermarking techniques for model responses when model theft is a concern, or the output of the model needs to be identifiable. |      |      | ✓ |
 | 2.2.7 | Before a model is finalized for deployment, conduct a thorough risk assessment to understand potential security, ethical, and operational risks. This assessment should guide the decision-making process regarding the deployment of the model. |      |      | ✓ |
@@ -50,3 +50,7 @@ Ensure that LLMs are stored in a secure manner, with additional security tooling
 | 2.4.2 | Where possible, prefer secure model formats such as SafeTensors over formats that use unsafe serialization, like PyTorch’s Pickle format. | ✓ | ✓ | ✓ |
 | 2.4.3 | Ensure tooling to detect biases and ensure fairness are integrated into the ML models lifecycle. |      | ✓ | ✓ |
 | 2.4.4 | Ensure security tooling to detect LLM vulnerabilities such as injection attacks, jailbreak attempts and other abuse are integrated into the ML model's lifecycle. |      | ✓ | ✓ |
+
+## References
+
+<a id="fine_tune_def">\[1\] https://arxiv.org/pdf/2410.21337v1</a>
