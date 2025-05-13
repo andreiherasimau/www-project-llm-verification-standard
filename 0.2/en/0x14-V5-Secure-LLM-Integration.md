@@ -12,7 +12,7 @@ Establish controls that enable safe interactions and operations between applicat
 | 5.1.5 | Ensure that user-supplied URLs undergo safety checks to prevent indirect prompt injection. [\[6\]](#greshake_et_al), [\[7\]](#real_world_llm_sec) | ✓ | ✓ | ✓ |
 | 5.1.6 | Ensure that proper protections are in place to prevent meta-prompt leakage, e.g. canary tokens, guardrails, input and output filtering, etc. [\[8\]](#nemo_guardrails) |   | ✓ | ✓ |
 | 5.1.7 | Ensure that appropriate LLM guards are used to scan prompts and compilations to help detect potential prompt injection attacks. |      | ✓ | ✓ |
-| 5.1.8 | Ensure that prompts are scanned for suspicious, harmful or banned sequences of words. - NEW: [\[1\]](#hou_yi), [\[7\]](#real_world_llm_sec), [\[9\]](#context_inj) |    | ✓ | ✓ |
+| 5.1.8 | Ensure that prompts are scanned for suspicious, harmful or banned sequences of words. [\[1\]](#hou_yi), [\[7\]](#real_world_llm_sec), [\[9\]](#context_inj) |    | ✓ | ✓ |
 
 ## V5.2 Context Security
 
