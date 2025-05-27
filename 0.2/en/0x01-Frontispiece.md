@@ -6,7 +6,7 @@ The Large Language Model Security Verification Standard is a list of specific AI
 
 ## Copyright and License
 
-Version 0.0.2 (Bleeding Edge version), 2024
+Version 0.0.1 (Bleeding Edge version), 2024
 
 ![license](../images/license.png)
 
